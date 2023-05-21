@@ -13,7 +13,11 @@ if (number01 > number02)
 {
     Console.WriteLine("The number: " + number01 + " -is the biggest number!");
 }
-else 
+else if (number01 == number02)
+{
+    Console.WriteLine("Numbers are the same!");
+}
+else
 {
     Console.WriteLine("The number: " + number02 + " -is the biggest number!");
 }
@@ -48,7 +52,20 @@ if (max < number03)
     max = number03;
 }
 
-Console.WriteLine("The number: " + max + " -is the biggest number!");
+if (number01 == number02 & number01 == number03)
+{
+    Console.WriteLine("Numbers are the same!");
+}
+else
+{
+    Console.WriteLine("The number: " + max + " -is the biggest number!");
+}
 //________________________________________________________________
 
 // 3rd TASK ______________________________________________________
+Console.WriteLine("Type an integer number");
+number01 = Convert.ToInt32(Console.ReadLine());
+if (number01 % 2 == 0)
+{
+    
+}
