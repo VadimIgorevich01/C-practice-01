@@ -67,5 +67,12 @@ Console.WriteLine("Type an integer number");
 number01 = Convert.ToInt32(Console.ReadLine());
 if (number01 % 2 == 0)
 {
-    
+    Console.WriteLine("Your number " + number01 + " is even");
 }
+else 
+{
+    Console.WriteLine("Your number " + number01 + " is NOT even");
+}
+//________________________________________________________________
+
+// 4th TASK ______________________________________________________
