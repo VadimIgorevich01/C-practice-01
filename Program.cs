@@ -76,3 +76,26 @@ else
 //________________________________________________________________
 
 // 4th TASK ______________________________________________________
+Console.WriteLine("Type a positive integer number");
+number01 = Convert.ToInt32(Console.ReadLine());
+
+int i = 1;
+int end = number01 + 1;
+
+Console.WriteLine("Let's find even numbers.. Here you go");
+
+if (number01 == 0 || number01 == 1)
+{
+    Console.WriteLine("Nothing found..");
+}
+else
+{
+    while (end > i)
+    {
+        if (i % 2 == 0)
+        {
+            Console.Write(i + " ");
+        }
+        i++;
+    }
+}
