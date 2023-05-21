@@ -20,3 +20,35 @@ else
 //________________________________________________________________
 
 // 2nd TASK ______________________________________________________
+Console.WriteLine("Type first integer number");
+number01 = Convert.ToInt32(Console.ReadLine());
+
+Console.WriteLine("Type second integer number");
+number02 = Convert.ToInt32(Console.ReadLine());
+
+Console.WriteLine("Type third integer number");
+int number03 = Convert.ToInt32(Console.ReadLine());
+
+Console.WriteLine("You typed the following numbers: " + number01 + " " + number02 + " " + number03);
+Console.WriteLine("Let's find the biggest");
+
+int max;
+
+if (number01 > number02)
+{
+    max = number01;
+}
+else
+{
+    max = number02;
+}
+
+if (max < number03)
+{
+    max = number03;
+}
+
+Console.WriteLine("The number: " + max + " -is the biggest number!");
+//________________________________________________________________
+
+// 3rd TASK ______________________________________________________
